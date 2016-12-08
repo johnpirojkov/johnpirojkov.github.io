@@ -100,15 +100,27 @@ strong{
 	.jumbotron h1{
 		font-size: 72px;
 	}
+	p{
+		font-size: 16px
+	}
+		strong{
+		font-size: 16px
+	}
 }
 
 
 @media(max-width: 768px){
 	.jumbotron h1{
-		font-size: 40px;
+		font-size: 30px;
 	}
 	.jumbotron .lead{
-		font-size: 20px;
+		font-size: 15px;
+	}
+		p{
+		font-size: 10px
+	}
+			strong{
+		font-size: 10px
 	}
 }
 
@@ -152,14 +164,6 @@ strong{
 }
 
 
-.col-md-9{
-	padding-left: 50em;
-}
-
-.col-md-6{
-		padding-left: 20em;
-
-}
 
 section{
 	  height: 100vh;
@@ -191,16 +195,4 @@ img.resize1{
 
 .devicon-c-line, .devicon-java-plain-wordmark, .devicon-python-plain-wordmark, .devicon-mysql-plain-wordmark, .devicon-javascript-plain, .devicon-cplusplus-line, .devicon-csharp-plain, .devicon-bootstrap-plain-wordmark, .devicon-git-plain, .devicon-github-plain-wordmark, .devicon-jquery-plain-wordmark, .devicon-linux-plain, .devicon-oracle-original, .devicon-javascript-plain, .devicon-ssh-plain-wordmark, .devicon-travis-plain-wordmark, .devicon-ubuntu-plain-wordmark {
   font-size: 5rem
-}
-
-
-  @media all and (max-width: 800px) {
-      h1{
-        font-size: 70px;
-      }
-    }
-@media all and (max-width: 600px) {
-      h1{
-        font-size: 50px;
-      }
 }
